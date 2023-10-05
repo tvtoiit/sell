@@ -1,0 +1,254 @@
+.products_menu_tabs {
+    background: #fff;
+    margin-bottom: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-tabs {
+    border: 0 none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    grid-gap: 5px;
+}
+
+.item-tab {
+    display: flex;
+}
+
+.iphone {
+    left: 0;
+}
+
+.iphone-text {
+    font-size: 16px;
+    line-height: 21px;
+    padding: 8px 21.5px 7px 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #444;
+}
+
+// Product
+.products_item_list {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.box_product {
+    height: 100%;
+    background: #f4f4f4;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.list-slide {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2px;
+    margin: 0 -10px 0 0;
+}
+
+.col-sm-5ths {
+    // width: 226px;
+    margin: 0 10px 10px 0;
+    background: #fff;
+    padding: 20px 10px 10px;
+    border-radius: 10px;
+    float: none;
+    transition: all 300ms ease-in-out;
+    position: relative;
+
+    &:hover {
+        // width: 228px;
+
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+    }
+}
+
+.item-slide {
+    margin-bottom: 5px;
+}
+
+.cat_item {
+    font-size: 14px;
+}
+
+.cat-item__a {
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    max-width: 210px;
+}
+
+.frame_inner {
+    background: #fff;
+    text-align: center;
+    max-width: 210px;
+}
+
+.product_image {
+    height: 200px;
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    overflow: hidden;
+}
+
+.product-img {
+    object-fit: contain;
+    margin-top: 0;
+    max-height: 100%;
+    width: 100%;
+    height: 208px;
+    position: relative;
+    top: 0;
+    transition: all 300ms ease-in-out;
+    color: #f7f7f7;
+}
+
+.discount {
+    background: linear-gradient(93.01deg, #ff6700 15.48%, #f9920f 92.66%);
+    border-radius: 5px 5px 0px 5px;
+    padding: 2px 16px;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.discount::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 20px;
+    border-left: 10px solid rgba(0, 0, 0, 0);
+    border-bottom: 0px solid rgba(0, 0, 0, 0);
+    border-top: 10px solid #f9920f;
+}
+
+.frame_title {
+    padding: 10px 0 10px 0;
+    text-align: left;
+
+    &:hover {
+        color: #f60;
+    }
+}
+
+.frame_title--title {
+    font-size: 14px;
+    line-height: 17px;
+    height: 34px;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #444444;
+    font-weight: 400;
+}
+
+.frame_price {
+    padding: 0 0 10px 0;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    color: #f60;
+    font-size: 16px;
+}
+
+.price_old {
+    color: #777;
+    text-decoration: line-through;
+    padding-left: 0;
+}
+
+.sale-brief {
+    padding: 10px;
+    background: #eee;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #444;
+    height: 56px;
+    display: flex;
+    align-items: center;
+}
+
+.text-left {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.rate-like {
+    cursor: pointer;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.products_news {
+    width: 100%;
+}
+
+/* pc */
+@media (min-width: 64em) {
+    .wrapper {
+        margin: 65px 80px 0;
+    }
+}
+
+/* tablet and pc */
+@media (min-width: 63.93em) and (max-width: 77.5em) {
+
+}
+@media (max-width: 77.5em) {
+    .container-img {
+        display: none;
+    }
+}
+
+/* tablet */
+@media (min-width: 46.25em) and (max-width: 63.93em) {
+    .container-img {
+        display: none;
+    }
+}
+
+/* mobile */
+@media (max-width: 46.18em) {
+    .container-img {
+        display: none;
+    }
+}
+
+/* mobile and tablet*/
+@media (max-width: 63.9em) {
+    .products_news {
+        margin-top: 65px;
+    }
+
+    .container-img {
+        display: none;
+    }
+
+    .price {
+        font-size: 13px;
+    }
+
+    .price_old {
+        font-size: 13px;
+    }
+}

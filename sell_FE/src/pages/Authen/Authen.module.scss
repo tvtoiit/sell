@@ -1,0 +1,160 @@
+.wrapper {
+    margin-top: 60px;
+    width: 100%;
+}
+
+.inner {
+    margin-top: 60px;
+}
+
+.breadcrumbs {
+    padding: 15px 0;
+    margin: 0 60px 0;
+}
+
+.login-texthome {
+    color: #20863d;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.text-login {
+    color: #20863d;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.grid-members {
+    width: 63%;
+    margin: 0 auto 50px;
+    display: grid;
+    justify-content: center;
+    // grid-template-columns: 400px 450px;
+    border: 1px solid #dddddd;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.grid-item {
+    background: #eeeeee;
+}
+
+.grid-item__img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.para-login {
+    padding: 0 20px;
+    margin-bottom: 15px px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ff6700;
+    text-transform: uppercase;
+}
+
+.box-login {
+    padding: 0 20px;
+    list-style: none;
+    margin: 0 0 15px 0;
+}
+
+.box-item {
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.box_img {
+    margin-right: 10px;
+}
+
+//Đăng nhập
+
+.box-item__login {
+    display: flex;
+    align-items: center;
+    margin-bottom: 26px;
+    list-style: none;
+   
+}
+
+.box-item__li {
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #444492;
+    border-bottom: 1px solid #dddddd;
+    transition: 0.1s ease-in-out;
+}
+
+.box-item__nav {
+    text-decoration: none;
+    position: relative;
+    color: #333;
+    display: block;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.active {
+    font-weight: bold;
+    color: #ff6700;
+    border-color: #ff6700;
+    border-bottom: 1px solid #ff6700;
+    width: 100%;
+}
+
+.grid-item2 {
+    padding: 30px;
+}
+
+/* pc */
+@media (min-width: 64em) {
+    .grid-members {
+        grid-template-columns: 45% 55%;
+        width: 63%;
+    }
+}
+
+/* tablet and pc */
+@media (min-width: 63.93em) and (max-width: 77.5em) {
+    
+}
+@media (max-width: 77.5em) {
+    
+}
+
+/* tablet */
+@media (min-width: 46.25em) and (max-width: 63.93em) {
+    .grid-members {
+        grid-template-columns: 45% 55%;
+    }
+}
+
+/* mobile */
+@media (max-width: 46.18em) {
+    .grid-item2 {
+        width: 100%;
+    }
+
+    .grid-item {
+        display: none;
+    }
+
+    .grid-members {
+        grid-template-columns: 100%;
+    }
+}
+
+/* mobile and tablet*/
+@media (max-width: 63.9em) {
+    
+
+    .grid-members {
+        width: 100%;
+    }
+}

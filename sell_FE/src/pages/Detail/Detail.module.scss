@@ -1,0 +1,252 @@
+.wrapper {
+    background-color: #fff;
+
+
+}
+
+.detail-header {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+    padding-right: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+// img 
+.picture {
+    height: 400;
+    padding: 0 10px;
+}
+
+.lSSlideOuter {
+    width: 100%;
+}
+
+.list-picture {
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.list-picture__ul {
+    display: flex;
+    list-style: none;
+}
+
+.list-picture__li {
+    width: 55px;
+    margin-right: 10px;
+    text-align: center;
+    border: 1px solid #FF6700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide-image {
+    margin-bottom: 10px;
+}
+
+// column 2
+._extra {
+    // width: 37%;
+    margin: 0 10px;
+}
+
+.price-text {
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+#city {
+    color: #20863d;
+    padding: 5px;
+    border-radius: 4px;
+    border-color: #ddd;
+    margin-bottom: 10px;
+}
+
+.top_prd {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+
+._price {
+    color: #ff6700;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21px;
+}
+
+.price_old {
+    color: #777;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+// button 
+.button-cart {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.button-link {
+    text-align: center;
+    display: block;
+    background: -webkit-linear-gradient(left, #FF6700, #F9920F);
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.button-cart__text {
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: none;
+    display: block;
+}
+// check detail
+.accessories {
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}   
+
+.title_km {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.accessories-list {
+    list-style: none;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+.accessories-list__li {
+   
+    margin-bottom: 10px;
+}
+
+.accessories--text {
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+//Thông số kĩ thuật
+._characteristic {
+    //width: 350px;
+}
+
+.title_box {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+._characteristic_text {
+    display: block;
+    margin-left: -7px;
+    font-size: 18px;
+    color: #fff;
+    line-height: 21px;
+    padding: 8px 21.5px 7px 19.5px;
+    clip-path: polygon(95% 0%, 100% 50%, 95% 100%, 0% 100%, 10px 50%, 0% 0%);
+    background-color: #ff6700;
+    text-transform: uppercase;
+}   
+
+#load_more_charactestic {
+    background: none repeat scroll 0 0 #fafafa;
+    border: 1px solid #f60;
+    border-radius: 3px;
+    color: #f60;
+    display: block;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.load_more_charactestic__span {
+    display: block;
+}
+
+.tr-1 {
+    background-color: #f5f5f5;
+}
+
+.title_charactestic {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px;
+}
+
+.content_charactestic {
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px;
+}
+
+.charactestic_table {
+    width: 100%;
+}
+
+/* pc */
+@media (min-width: 64em) {
+    .detail-container {
+        display: flex;
+    }   
+
+    .wrapper {
+        margin: 75px 80px 0;
+    }
+}
+
+/* tablet and pc */
+@media (min-width: 63.93em) and (max-width: 77.5em) {
+    
+}
+@media (max-width: 77.5em) {
+    
+}
+
+/* tablet */
+@media (min-width: 46.25em) and (max-width: 63.93em) {
+    
+}
+
+/* mobile */
+@media (max-width: 46.18em) {
+    
+}
+
+/* mobile and tablet*/
+@media (max-width: 63.9em) {
+    .wrapper {
+        margin: 65px 4px 0;
+    }
+}
+
+

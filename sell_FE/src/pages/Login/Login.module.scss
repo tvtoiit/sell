@@ -1,0 +1,126 @@
+.box-item__login {
+    display: flex;
+    align-items: center;
+    margin-bottom: 26px;
+    list-style: none;
+}
+
+.box-item__li {
+    text-align: center;
+    padding-bottom: 10px;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #444;
+    border-bottom: 1px solid #dddddd;
+    transition: 0.1s ease-in-out;
+}
+
+.box-item__nav {
+    text-decoration: none;
+}
+
+.grid-item2 {
+    padding: 30px;
+}
+
+.box-form {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    padding: 5px 20px;
+    color: #333333;
+    font-size: 14px;
+    height: 40px;
+    border: 1px solid #dddddd;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+
+    display: block;
+    width: 100%;
+    line-height: 1.42857143;
+    background-color: #fff;
+    outline: none;
+
+    &:focus {
+        box-shadow: 0 0 8px rgba(252, 212, 51, 0.6);
+        border-color: #faaf40;
+    }
+}
+
+.box-right {
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.forgot-password {
+    font-size: 14px;
+    color: #ff6700;
+    transition: 0.1s ease-in-out;
+    text-decoration: none;
+}
+
+.submit-btn {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ff6700;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
+    border: none;
+}
+
+// validate error
+.content-error {
+    height: 10px;
+}
+
+.error {
+    font-size: 13px;
+    color: red;
+
+    margin-bottom: 15px;
+    padding: 10px 12px;
+    background-color: #ffdddd;
+    border-left: 6px solid #f44336;
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* pc */
+@media (min-width: 64em) {
+    
+}
+
+/* tablet and pc */
+@media (min-width: 63.93em) and (max-width: 77.5em) {
+
+}
+@media (max-width: 77.5em) {
+    
+}
+
+/* tablet */
+@media (min-width: 46.25em) and (max-width: 63.93em) {
+    
+}
+
+/* mobile */
+@media (max-width: 46.18em) {
+    
+}
+
+/* mobile and tablet*/
+@media (max-width: 63.9em) {
+    
+}
+
