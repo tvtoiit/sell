@@ -1,5 +1,4 @@
 {
-    "homepage": "https://tvtoiit.github.io/smallphone",
     "name": "tiktok-ui",
     "version": "0.1.0",
     "private": true,
@@ -29,9 +28,7 @@
         "start": "react-app-rewired start",
         "build": "react-app-rewired build",
         "test": "react-app-rewired test",
-        "eject": "react-app-rewired eject",
-        "predeploy": "react-scripts build",
-        "deploy": "gh-pages -d build"
+        "eject": "react-app-rewired eject"
     },
     "eslintConfig": {
         "extends": [
@@ -54,7 +51,6 @@
     "devDependencies": {
         "babel-plugin-module-resolver": "^5.0.0",
         "customize-cra": "^1.0.0",
-        "gh-pages": "^6.0.0",
         "react-app-rewired": "^2.2.1",
         "sass": "^1.64.2"
     }
