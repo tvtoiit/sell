@@ -447,8 +447,10 @@
 }
 
 /* tablet and pc */
-@media (min-width: 63.93em) and (max-width: 77.5em) {
-    
+@media (min-width: 63.93em) and (max-width: 82.5em) {
+    .cate-btn {
+        display: none;
+    }
     
     .login-img__IconMobile{
         display: none;
